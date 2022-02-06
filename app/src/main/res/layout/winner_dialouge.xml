@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/game_result"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:id="@+id/txt_winner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp">
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exit"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/red"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                android:id="@+id/btn_play_again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/play_again"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/green"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

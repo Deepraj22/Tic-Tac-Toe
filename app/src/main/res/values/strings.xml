@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="start">Start</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="game_result">Game Result</string>
+    <string name="exit">EXIT</string>
+    <string name="play_again">PLAY AGAIN</string>
+</resources>
